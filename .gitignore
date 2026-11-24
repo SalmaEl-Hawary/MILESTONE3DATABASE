@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask and local development files
+instance/
+.pytest_cache/
+.mypy_cache/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs and local output
+*.log
+*.tmp
+
+# Local database and dump files
+*.sql
+*.sql.gz
